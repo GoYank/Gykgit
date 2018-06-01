@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ydy_one">
+
+    <ui.CustomFontTextView
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:text="东营职业学院"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ui.CustomFontTextView
+        android:layout_marginBottom="30dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算机网络技术一班"/>
+    <ui.CustomFontTextView
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系方式：392132179@qq.com"/>
+    <ui.CustomFontTextView
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Gyk"/>
+</LinearLayout>

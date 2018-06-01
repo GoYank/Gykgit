@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/ydy_one">
+
+
+    <ui.CustomFontTextView
+        android:id="@+id/tv_pager_2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ems="1"
+        android:paddingTop="200dp"
+        android:text="海内存知己"
+        android:textSize="40sp" />
+
+    <ui.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:ems="1"
+        android:paddingTop="260dp"
+        android:text="天涯若比邻"
+        android:textSize="40sp" />
+
+</LinearLayout>

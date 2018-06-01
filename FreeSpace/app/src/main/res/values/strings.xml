@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">自由空间</string>
+    <string name="text_now_login">正在登陆...</string>
+    <string name="text_tost_empty">输入框不能为空</string>
+</resources>

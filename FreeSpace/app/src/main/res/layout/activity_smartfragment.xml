@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ydy_one"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ui.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="实用小工具集合"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <ui.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:text="快递查询>>>>>"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_jr"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/check_border"
+        android:text="进入" />
+
+    <ui.CustomFontTextView
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="60dp"
+        android:text="更多功能正在开发中....."
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:src="@drawable/xr" />
+
+</LinearLayout>
